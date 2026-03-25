@@ -5,8 +5,12 @@ A responsive and modern **personal portfolio website** built using **HTML, CSS, 
 
 ---
 
-## 🚀 Live Demo
-🔗 **Website:** [View Portfolio](https://your-portfolio-link.com)
+## 🔮 Future Improvements
+# Add project screenshots
+Add resume download button
+Add dark mode
+Add better animations
+Deploy with custom domain
 
 ---
 

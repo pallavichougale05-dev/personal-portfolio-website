@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pallavi Chougale | Portfolio</title>
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav>
+    <div class="nav-container">
+        <div class="logo">Pallavi Chougale</div>
+
+        <ul class="nav-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+    <div class="hero-content">
+        <h1>Hi, I'm <span class="gradient-text">Pallavi Chougale</span></h1>
+
+        <p>Aspiring  Engineer focused on Data Analysis and Web Development</p>
+
+        <div class="cta-buttons">
+            <a href="#projects" class="btn btn-primary">
+                <i class="fas fa-rocket"></i> View My Work
+            </a>
+
+            <a href="#contact" class="btn btn-secondary">
+                <i class="fas fa-envelope"></i> Contact Me
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="container fade-in">
+    <h2 class="section-title">About Me</h2>
+
+    <div class="about-content">
+
+        <div class="about-text">
+            <p>
+                I am an engineering student passionate about building real-world solutions.
+                I enjoy working with data, creating web applications, and solving practical problems.
+            </p>
+
+            <p><strong>Technologies:</strong></p>
+
+            <div class="skills">
+                <span class="skill-tag">Python</span>
+                <span class="skill-tag">Java</span>
+                <span class="skill-tag">SQL</span>
+                <span class="skill-tag">Pandas</span>
+                <span class="skill-tag">NumPy</span>
+                <span class="skill-tag">Matplotlib</span>
+                <span class="skill-tag">Tableau</span>
+                <span class="skill-tag">HTML</span>
+                <span class="skill-tag">CSS</span>
+                <span class="skill-tag">Git</span>
+                <span class="skill-tag">GitHub</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="container fade-in">
+    <h2 class="section-title">Projects</h2>
+
+    <div class="timeline">
+
+        <!-- PROJECT 1 -->
+        <div class="timeline-item">
+            <div class="timeline-dot"></div>
+
+            <div class="timeline-content">
+                <h3>Traffic Management System</h3>
+
+                <h4>Python, Pandas, NumPy</h4>
+                <p>
+                    Built a system to analyze traffic data and optimize vehicle flow using Python libraries.
+                </p>
+
+                <a href="https://github.com/pallavichougale05-dev/Smart-Traffic-Management-System.git" target="_blank">
+                    <i class="fab fa-github"></i> View Code
+                </a>
+            </div>
+        </div>
+
+        <!-- PROJECT 2 -->
+        <div class="timeline-item">
+            <div class="timeline-dot"></div>
+
+            <div class="timeline-content">
+                <h3>Personal Portfolio Website</h3>
+
+                <h4>HTML, CSS, JavaScript</h4>
+
+                <p>
+                    Designed and developed a responsive personal portfolio website to showcase projects and skills.
+                </p>
+
+                <a href="#" target="_blank">
+                    <i class="fas fa-globe"></i> Live Demo
+                </a>
+            </div>
+        </div>
+
+        <!-- PROJECT 3 -->
+        <div class="timeline-item">
+            <div class="timeline-dot"></div>
+
+            <div class="timeline-content">
+                <h3>Sales Data Analysis</h3>
+
+                <h4>Python, Pandas, Matplotlib</h4>
+
+                <p>
+                    Performed data analysis on CSV datasets and created visualizations to identify business insights.
+                </p>
+
+                <a href="https://github.com/pallavichougale-dev/sales-analysis" target="_blank">
+                    <i class="fab fa-github"></i> View Code
+                </a>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="container fade-in">
+    <h2 class="section-title">Contact Me</h2>
+
+    <div class="contact-content">
+        <div class="contact-info">
+            <h3>Let's connect</h3>
+
+            <div class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <p>pallavichougale05@gmail.com</p>
+            </div>
+
+            <div class="contact-item">
+                <i class="fas fa-phone"></i>
+                <p>+91 XXXXX XXXXX</p>
+            </div>
+
+            <div class="contact-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <p>Maharashtra, India</p>
+            </div>
+        </div>
+
+        <form class="contact-form" id="contactForm">
+            <div class="form-group">
+                <input type="text" id="name" placeholder="Your Name" required>
+            </div>
+
+            <div class="form-group">
+                <input type="email" id="email" placeholder="Your Email" required>
+            </div>
+
+            <div class="form-group">
+                <input type="text" id="subject" placeholder="Subject" required>
+            </div>
+
+            <div class="form-group">
+                <textarea id="message" placeholder="Your Message" required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary full-width">Send Message</button>
+        </form>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <div class="social-links">
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-github"></i></a>
+    </div>
+
+    <p>© 2026 Pallavi Chougale | Built for opportunities 🚀</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>

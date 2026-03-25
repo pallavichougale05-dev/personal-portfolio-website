@@ -8,14 +8,13 @@ A responsive and modern **personal portfolio website** built using **HTML, CSS, 
 ## 🚀 Live Demo
 🔗 **Website:** [View Portfolio](https://your-portfolio-link.com)
 
-> Replace the above link with your deployed website link.
-
 ---
 
 ## 📸 Preview
 
 <img width="1364" height="525" alt="image" src="https://github.com/user-attachments/assets/ecb8aa60-1894-471f-9065-560ec2cf5c46" />
+<img width="1344" height="555" alt="image" src="https://github.com/user-attachments/assets/3e807fab-6de7-403e-af8f-e517001b74b0" />
 
 
-```text
-portfolio-preview.png
+
+
